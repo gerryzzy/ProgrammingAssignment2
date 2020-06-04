@@ -2,7 +2,7 @@
 ## functions do
 
 ## Write a short comment describing this function
-
+## make a list of four function that related to matrix x
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
     set <- function(y) {
@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-
+## get the inverse of the matrix reprsent by the list x
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
     inv <- x$getInverse()
